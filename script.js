@@ -9,7 +9,7 @@ const novoconselhoBtn = document.getElementById('novo conselhoBtn');
 
 function gerarConselho() {
     //BUG INTENCIONAL AQUI 
-    const indice = Math.floor(Math.random() * (conselhos.legth +));
+    const indice = Math.floor(Math.random() * (conselhos.legth));
     conselhoTexto.textContent = conselhos[indice];
 }
 novoconselhoBtn.addEventListener('click', gerarConselho);
